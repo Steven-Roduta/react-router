@@ -1,7 +1,10 @@
+import Header from "../components/Header"
+
 export default function DefaultLayout() {
     return (
         <>
-        <h1>Default</h1>
+        <Header/>
+        <h1>Menu</h1>
         </>
     )
 }
