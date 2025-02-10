@@ -43,13 +43,23 @@ header{
     background-color: #92a294;
 }
 
+.logo{
+    background-image: url(../img/logo.webp);
+    background-size: cover;
+    max-width: 50px;
+    min-height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
 .list ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 20px;
     position: relative;
-    top: 20px;
+    bottom:30px;
 }
 
 nav a {
@@ -63,6 +73,10 @@ nav a {
 a:hover {
     color: #e4c6ab;
 }
+
+/* ------------
+  MAIN
+--------------*/
 
 h1{
     margin-left: 100px;
@@ -103,3 +117,4 @@ h1{
     color: white;
     transition: color 0.3s ease; 
 }
+

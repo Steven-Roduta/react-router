@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
   return (
     <header>
+        <div className="logo"></div>
         <div className="list">
             <nav>
                 <ul>
