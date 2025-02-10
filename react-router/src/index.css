@@ -21,7 +21,7 @@
 .container{
   max-width:30rem;
   margin: auto;
-  padding: 1.25rem 0;
+  padding: 1.25rem ;
 }
 
 /* -------------
@@ -35,7 +35,7 @@ body{
 }
 
 /* -------------
-  HEADER
+  HEADER (about-us)
 ----------------*/
 header{
     max-width: 100%;
@@ -75,7 +75,7 @@ a:hover {
 }
 
 /* ------------
-  MAIN
+  MAIN  (about-us)
 --------------*/
 
 h1{
@@ -85,10 +85,19 @@ h1{
    
 }
 
+h6{
+    text-align: center;
+    font-size: 50px;
+    color: #92a294;
+    margin: 50px;
+}
+
 img{
     max-width: 600px;
     max-height: 800px;
     margin: 50px;
+    box-shadow: 3px 2px 2px 2px #000;
+
 
 }
 
@@ -97,6 +106,8 @@ img{
     max-width: 600px;
     max-height: 600px;
     margin-left: 50px;
+    
+
 }
 
 h1{
@@ -116,5 +127,175 @@ h1{
 .description:hover{
     color: white;
     transition: color 0.3s ease; 
+}
+
+/* Homepage */
+
+.home{
+    background-image: url(../public/img/home.webp);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+/* Contact Us */
+.form{
+    width: 600px;
+    margin: 50px auto;
+    background: #92a294;
+    padding: 55px;
+    overflow: hidden;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+label, input, button {
+    color: #dedede;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    margin: 10px 0;
+}
+
+input{
+    width: 300px;
+    margin: 10px;
+    color: #000;
+    border-radius: 19px;
+    padding: 10px;
+}
+
+input:hover{
+    background-color: burlywood;
+    transition: color 0.8s ease; 
+}
+
+button{
+width: 100px;;
+padding: 15px;
+color: #000;
+float: right;
+border-radius: 25px;
+font-size: 16px;
+background-color: #e4c6ab;
+}
+
+button:hover{
+    background-color: burlywood;
+    transition: color 0.8s ease; 
+}
+
+/* MENU */
+
+h5{
+    margin-left: 100px;
+    color: #92a294;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+    margin-right: 40px;
+}
+
+.order{
+    background-color: #92a294;
+    max-width: 80%;
+    height: 500px;
+    margin-left: 150px;
+}
+
+
+/* ------------
+   FOOTER (about-us)
+---------------*/
+.list-footer{
+    max-width: 100%;
+    max-height: 150px;
+    background-color: #92a294;
+    position: relative;
+    top: 200px;
+}
+
+.list-first li{
+    margin-left: 150px;
+    list-style-type: none;
+    color: white;
+}
+
+.list-first h2{
+    margin: 10px;
+    margin-left: 148px;
+    color: #e4c6ab;
+}
+
+li:hover{
+    color: #e4c6ab;
+}
+
+.list-second ul{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    margin-left: 400px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.list-second h3{
+    margin: 5px;
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+    color: #e4c6ab;
+}
+
+.logo-second{
+    background-image: url(../img/logo.webp);
+    background-size: cover;
+    background-repeat: repeat;
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
+}
+
+.list-footer .list-third ul{
+
+    margin-left: 600px;
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    bottom: 50px;
+    color: white;
+
+}
+
+.list-footer .list-third h4{
+    margin: 10px;
+    position: relative;
+    top: 5px;
+    left: 140px;
+    font-size: 25px;
+    color: #e4c6ab;
+}
+
+.list-footer .list-fourth ul{
+
+    margin-left: 900px;
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    bottom: 30px;
+    color: white;
+
+}
+
+.list-footer .list-fourth h5{
+    margin: 10px;
+    position: relative;
+    top: 5px;
+    left: 60px;
+    font-size: 25px;
+    color: #e4c6ab;
 }
 

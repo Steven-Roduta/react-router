@@ -1,7 +1,9 @@
+import Header from "../components/Header"
 export default function PageNotFound() {
     return (
         <>
-        <h1></h1>
+        <Header/>
+        <h1>Page Not Found</h1>
         </>
     )
 }
