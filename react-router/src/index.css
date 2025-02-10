@@ -31,7 +31,7 @@ body{
   font-size: 1.1rem;
   font-family: "Montserrat" , sans-serif;
   color: #111111;
-  background-color: #0D5C63;
+  background-color: #e4c6ab;
 }
 
 /* -------------
@@ -40,11 +40,11 @@ body{
 header{
     max-width: 100%;
     min-height: 70px;
-    background-color: #bfbfbf;
+    background-color: #92a294;
 }
 
 .list ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -52,9 +52,16 @@ header{
     top: 20px;
 }
 
-.list ul li{
-    text-decoration:none;
-    color: aliceblue;
+nav a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #e4c6ab;
 }
 
 h1{
@@ -62,4 +69,37 @@ h1{
     color: white;
     font-size: 50px;
    
+}
+
+img{
+    max-width: 600px;
+    max-height: 800px;
+    margin: 50px;
+
+}
+
+.bakery{
+    background-color: #92a294;
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 50px;
+}
+
+h1{
+    position: relative;
+    right: 100px;
+    color:#92a294 ;
+}
+
+.description {
+    max-width: 500px;
+    float: right;
+    margin-right: 150px;
+    font-size: 30px;
+    color: #92a294;
+}
+
+.description:hover{
+    color: white;
+    transition: color 0.3s ease; 
 }
