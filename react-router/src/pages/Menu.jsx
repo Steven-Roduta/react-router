@@ -9,7 +9,7 @@ export default function Menu() {
 
     const fetchMenu = () => {
         axios.get("http://localhost:3000/post/").then((response) => (
-            setMenu(response.data)
+            setMenu(response.data.posts)
            
         ))}
 
@@ -19,15 +19,20 @@ export default function Menu() {
         <>
         <Header/>
         <h5>ORDER NOW</h5>
-        <div className="order"></div>
-        {
-            menu.map((post) => (
-         <li key={post.id}>
-            <img src={post.image} alt={post.title} />
-             <h3>{post.title}</h3>
-        </li>
-        ))}
+        <div className="now">
+                 <div className="order">
 
+                {
+                menu.map((post) => (
+                <li key={post.id}>
+                <img src={post.image} alt={post.title} />
+                 <h3>{post.title}</h3>
+                 <p>{post.content}</p>
+            </li>
+            ))}
+        </div>
+        </div>
+   
 
         <div className="list-footer">
 
@@ -70,6 +75,8 @@ export default function Menu() {
                 </div>
             </div>
 
+
+
         </div>
 
                
@@ -84,7 +91,6 @@ export default function Menu() {
                 </ul>
             </nav>
         </div>
-        
         </>
         
     )

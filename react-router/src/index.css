@@ -196,11 +196,52 @@ h5{
     margin-right: 40px;
 }
 
-.order{
+.now{
     background-color: #92a294;
-    max-width: 80%;
-    height: 500px;
+    max-width: 50%;
+    height:290%;
+    margin-left: 390px;
+
+}
+
+.order{
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.order h3{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: chocolate;
+}
+
+.order p{
+    color: #dedede;
+    width: 600px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.order img{
+    display: flex;
+    justify-content: center;
+    height: 300px;
     margin-left: 150px;
+    margin-top: 50px;
+    background-color: #e4c6ab;
+    position: relative;
+    top: 20px;
+}
+
+p:hover{
+    color: white;
+}
+
+
+.order li{
+    margin-top: 100px;
 }
 
 
